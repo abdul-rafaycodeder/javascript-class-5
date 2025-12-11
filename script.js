@@ -27,11 +27,11 @@
 // uname.toUpperCas();
 // console.log(uname)
 
-let lastName = "abdul rafay";
-let upperr = lastName. toUpperCase();
-let lowerr = lastName.toLowerCase();
-let result = upperr + lowerr;
-console.log(result)
+// let lastName = "abdul rafay";
+// let lowerr = lastName.toLowerCase();
+// let upperr = lastName. toUpperCase();
+// let result = upperr + lowerr;
+// console.log(result)
 
 // var firstName = "abdul rafay";
 // var upper = firstName.toUpperCase();  // ABDUL RAFAY
@@ -39,3 +39,9 @@ console.log(result)
 
 // console.log(upper);
 // console.log(lower);
+
+let uname = ["rafay", "osama", "ali", "hassan", "ahmed", "umer", "hammad", "hamza"];
+
+for(let i = 0; i < uname.length; i++){
+    console.log(uname[i]);
+}
