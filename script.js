@@ -40,8 +40,11 @@
 // console.log(upper);
 // console.log(lower);
 
-let uname = ["rafay", "osama", "ali", "hassan", "ahmed", "umer", "hammad", "hamza"];
-
+let chackstd = prompt("enter your name")
+let toUpperCas = chackstd.toUpperCase();
+let uname = ["RAFAY", "OSAMA", "ALI"];
 for(let i = 0; i < uname.length; i++){
-    console.log(uname[i]);
+    if(uname[i] == toUpperCas){
+        console.log(toUpperCas);
+    }
 }
